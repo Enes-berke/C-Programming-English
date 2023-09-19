@@ -5,11 +5,11 @@
         {
             if(x%2==0)
             {
-                printf("Sayý cift sayýdýr.");
+                printf("Sayicift sayidir.");
             }
             else
             {
-                printf("Sayý tek sayýdýr.");
+                printf("Sayitek sayidir.");
             }
         }
 
@@ -17,7 +17,7 @@ int main()
 
 {
     int x;
-    printf("Lütfen bir sayý degeri giriniz==>\n");
+    printf("Litfen bir sayidegeri giriniz==>\n");
     scanf("%d",&x);
 
     tekmiciftmi(x);
